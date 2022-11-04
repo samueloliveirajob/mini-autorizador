@@ -51,7 +51,7 @@ public class CartaoServiceTest {
     public void fazerTrasacoesAteZerarOsaldo() throws Exception {
         Double valorTransacao = 100.00;
         TransacaoDTO transacao = new TransacaoDTO(numeroCartao, senha, valorTransacao);
-        while(cartaoRepository.findById(numeroCartao).get().getSaldo() => valorTransacao){
+        while(cartaoRepository.findById(numeroCartao).get().getSaldo() >= valorTransacao){
             String resultado = serviceCartao.realizarTransacao(transacao);
             assertEquals("Ok", resultado);
         }
