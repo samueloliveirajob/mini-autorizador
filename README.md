@@ -53,7 +53,7 @@ Também, na avaliação da sua solução, serão realizados os seguintes testes,
 
 
 Samuel: So Rodar a classe de Test...
-![](src/test/java/com/mini/autorizador/evidencia/Screenshot 2022-11-04 at 14.59.41.png)
+![](https://github.com/samueloliveirajob/mini-autorizador/tree/master/src/test/java/com/mini/autorizador/evidencia/Screenshot 2022-11-04 at 14.59.41.png)
 
 
 Esses testes serão realizados:
