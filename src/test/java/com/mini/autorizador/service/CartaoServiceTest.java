@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DataJpaTest
 @RunWith(SpringRunner.class)
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-public class CartaoServicoTest {
+public class CartaoServiceTest {
 
     @Autowired(required = true)
     private CartaoService serviceCartao;
